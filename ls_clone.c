@@ -101,13 +101,6 @@ void getLastModificationTime(const char *filename) {
     printf("%-30s", mod_time); 
 }
 
-int containsLFlag(const char *arg) {
-    // Check if the argument starts with '-' and contains 'l'
-    if (arg[0] == '-' && strchr(arg, 'l') != NULL) {
-        return 1; // "-l" flag found
-    }
-    return 0; // No "-l" flag found
-}
 
 int main(int argc, char *argv[]) {
  
