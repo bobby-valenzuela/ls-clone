@@ -20,3 +20,7 @@ Run program
 Options
 - `-l` - Long listing (includes last modification time and file sizes).
 - `-h` - Prints human-readable file sizes. To be used with `l` as in `-lh`
+
+<br />
+
+![Demo](https://github.com/bobby-valenzuela/ls-clone/blob/main/demo.png)
